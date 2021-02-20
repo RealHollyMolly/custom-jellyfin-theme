@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+	--swiper-theme-color: rgba(0,0,0,.4);
+}
+
+/* Roboto Font */
+body, html { font-family: 'Roboto', sans-serif; }
+
+
+/*
+Detail view
+*/
+
+#similarCollapsible { display: none; }
+
+#castCollapsible { display: none; }
+
+#seriesAirTime { display: none; }
+
+.itemExternalLinks { display: none; }
+
+.detailRibbon { background: linear-gradient(transparent, rgba(0,0,0,.6)); }
+
+.skinHeader { transition: background 0s ease-in-out!important; }
+.skinHeader, skinHeader.semiTransparent { 
+	background-color: rgba(0,0,0,.1);
+	box-shadow: -1px 10px 45px -8px rgba(0,0,0,0.75);
+	-webkit-box-shadow: -1px 10px 45px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 10px 45px -8px rgba(0,0,0,0.75);
+}
+
+
+/*
+Episodes view
+*/
+
+#childrenContent .listItem { height: 200px; }
+
+
+/*
+General Tweaks
+*/
+
+.countIndicator, .fullSyncIndicator, .playedIndicator { background: rgba(0,0,0,.3); border-radius: 2px; }
+
+.paper-icon-button-light { border-radius: 2px; }
+
+.backDrop { background: linear-gradient(transparent, rgba(0,0,0,.6)); }
