@@ -8,7 +8,7 @@ I prefer squared shapes so I've decided to get rid of the roundish action button
 
 Paste this in the General tab of the Jellyfin dashboard:
 
-    @import url("https://cdn.jsdelivr.net/gh/RealHollyMolly/custom-jellyfin-theme@main/style.css");
+    @import url("https://cdn.jsdelivr.net/gh/realhollymolly/custom-jellyfin-theme@1.0.0/style.css");
 
 
 
