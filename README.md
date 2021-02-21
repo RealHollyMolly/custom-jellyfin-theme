@@ -16,5 +16,5 @@ Paste this in the General tab of the Jellyfin dashboard:
 
 <div style="text-align: center;">
 <img src="https://raw.githubusercontent.com/RealHollyMolly/custom-jellyfin-theme/main/previews/preview_details.gif" />
-<img src="https://raw.githubusercontent.com/RealHollyMolly/custom-jellyfin-theme/main/preview_actions.gif" />
+<img src="https://raw.githubusercontent.com/RealHollyMolly/custom-jellyfin-theme/main/previews/preview_actions.gif" />
 </div>
