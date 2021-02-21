@@ -17,7 +17,6 @@ Paste this in the General tab of the Jellyfin dashboard:
 <div style="display: grid; grid-template-columns: 1fr 1fr;">
     <img style="display: block; width: 100%;" src="https://raw.githubusercontent.com/RealHollyMolly/custom-jellyfin-theme/main/previews/preview_details.gif" />
     <img style="display: block; width: 100%;" src="https://raw.githubusercontent.com/RealHollyMolly/custom-jellyfin-theme/main/previews/preview_drawer.png" />
-    <img style="display: block; width: 100%;" src="https://raw.githubusercontent.com/RealHollyMolly/custom-jellyfin-theme/main/previews/preview_actions.gif" />
     <img style="display: block; width: 100%;" src="https://raw.githubusercontent.com/RealHollyMolly/custom-jellyfin-theme/main/previews/preview_context_menu.png" />
     <img style="display: block; width: 100%;" src="https://raw.githubusercontent.com/RealHollyMolly/custom-jellyfin-theme/main/previews/preview_modal.png" />
 </div>
