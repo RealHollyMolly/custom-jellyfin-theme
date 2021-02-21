@@ -39,7 +39,6 @@ Home view
 	-webkit-backdrop-filter: blur(5px);
   	backdrop-filter: blur(5px);
 	background-color: #00000050;
-	transform: translateX(320px);
 }
 
 
