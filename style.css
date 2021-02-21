@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-	--swiper-theme-color: rgba(0,0,0,.4);
+	--custom-swiper-theme-color: rgba(0,0,0,.4)!important;
 }
 
 /* Roboto Font */
@@ -35,10 +35,10 @@ Detail view
 Home view
 */
 
-.mainDrawer {
+.mainDrawer, .dialog {
 	-webkit-backdrop-filter: blur(5px);
   	backdrop-filter: blur(5px);
-	background-color: #00000050;
+	background-color: #00000080;
 }
 
 
@@ -56,5 +56,15 @@ General Tweaks
 .countIndicator, .fullSyncIndicator, .playedIndicator { background: rgba(0,0,0,.3); border-radius: 2px; }
 
 .paper-icon-button-light { border-radius: 2px; }
+
+.headerLeft, .headerRight { height: 75px; align-items: start; }
+.headerTabs { position: relative; top: -20px; }
+
+.mainDrawer .emby-button { padding: .4em 0 .4em 2.4em!important; transition: background .2s; }
+.mainDrawer .emby-button:hover, .formDialogHeader, .dialog .cardBox, .actionSheetContent .emby-button:hover { background: #FFFFFF10!important; }
+.mainDrawer .navMenuOption-selected { background: #FFFFFF25!important; }
+
+.actionSheetContent .emby-button { padding: 0 0 0 2.4em!important; }
+
 
 .backDrop { background: linear-gradient(transparent, rgba(0,0,0,.6)); }
